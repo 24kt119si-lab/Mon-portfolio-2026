@@ -14,14 +14,14 @@
     box-sizing: border-box;
 }
 
-body {
+.baccueil {
     background-color: var(--gris-tres-clair);
     font-family: Roboto, sans-serif;
     line-height: 1.6;
     
 }
 
-header {
+.Haccueil {
     background-color: white;
     box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.05);
     position: sticky;
@@ -33,7 +33,7 @@ header {
     padding: 2rem 3rem;
 }
 
-header div a {
+.Haccueil div a {
     text-decoration: none;
     font-size: 2.2rem;
     font-weight: bold;
@@ -200,19 +200,19 @@ section.competences table tbody tr:hover {
     background-color: #f0f0f0;
 }
 
-footer {
+ .accueil{
     margin-top: 3rem;
     background-color: var(--violet-doux);
     padding: 3rem 0;
     text-align: center;
 }
 
-footer p {
+.accueil p {
     color: white;
     margin-bottom: 1.2rem;
 }
 
-footer a {
+.accueil a {
     display: inline-block;
     font-size: 1.6rem;
     color: white;
@@ -220,7 +220,7 @@ footer a {
     transition: color 0.3s ease, transform 0.2s ease;
 }
 
-footer a:hover {
+.accueil a:hover {
     color: var(--orange-vif);
     transform: translateY(-3px);
 }

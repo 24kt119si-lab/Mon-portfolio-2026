@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
     <link rel="stylesheet" href="CSS/style.css">
-    
+    <link rel="stylesheet" href="CSS/projet.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <header>
+
+<body class="baccueil">
+    <header class="Haccueil">
         <div>
             <a href="">Mon Portfolio</a>
         </div>
@@ -27,15 +34,155 @@
         </nav>
     </header>
     <main>
-        <h1>Voici mes projets</h1>
-    </main>
-    <footer>
-        <p>©2026 Josué. Tous drolts réservés.</p>
-        <a href="https://www.linkedin.com/in/kasanji-tshimanga-josu%C3%A9-6726503b7/"><i class="fa-brands fa-linkedin"></i></a>
+        <section class="realisation">
+            <div><!-- le grand rectangle -->
+                <h2>Mes Réalisations</h2>
+                <div class="projets">
+                    <article class="commerce">
+                        <div class="cm">
+                            <header class="card">
+                                <img src="/image/commerce.jpg" alt="" width="200">
+                            </header>
+                        </div>
+                        <div class="mc">
+                            <h3>Site E-commerce</h3>
+                            <p>Une boutique en ligne complète développée avec HTML, CSS et JavaScript pur.</p>
 
-        
+
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+
+                        </div>
+                        <footer class="fsg">
+                            <a href=""><i class="fa-brands fa-github"></i>Code</a>
+
+                            <a href=""></a>
+
+                        </footer>
+
+                    </article>
+                    <!-- deuxieme projet -->
+                    <article class="gestionnaire">
+                        <header class="hgs">
+                            <img src="/image/gestionnaires.jpg" alt="" width="200">
+                        </header>
+                        <div class="bgs">
+                            <h3>Gestionnaire de Taches</h3>
+                            <p>Application web pour organiser ses projets
+                                quotidiens avec stockage local.</p>
+
+                            <div class="tags">
+                                <span>Python</span>
+                                <span>Flask</span>
+                            </div>
+
+
+                        </div>
+                        <footer class="fgs">
+                            <a href=""><i class="fa-brands fa-github"></i>Code</a>
+                            <a href=""></a>
+                        </footer>
+
+                    </article>
+                    <!-- Troisieme projet -->
+                    <article class="blog">
+                        <header class="hbl">
+                            <img src="/image/blog.jpg" alt="" width="200">
+                        </header>
+                        <div class="bbl">
+                            <h3>Blog Personnel</h3>
+                            <p>Projet en cours de migration vers Laravel
+                                pour apprendre le backend.</p>
+
+                            <div class="tags">
+                                <span>PHP</span>
+                                <span>Lavarel</span>
+                            </div>
+
+                            <footer class="fgs">
+                                <a href=""><i class="fa-brands fa-github"></i>Code</a>
+                                <a href=""></a>
+                            </footer>
+                        </div>
+                    </article>
+                    <!-- quatieme projet -->
+                    <article class="Dashboard">
+                        <header class="hda">
+                            <img src="/image/analyse.jpg" alt="" width="200">
+                        </header>
+                        <div class="bda">
+                            <h3>Dashboard d'Analyse</h3>
+                            <p>Visualisation de données dynamiques avec
+                                Python et la bibliotheque Matplotlib.</p>
+                            <div class="tags">
+                                <span>Python</span>
+                                <span>Data</span>
+                            </div>
+                            <footer class="fgs">
+                                <a href=""><i class="fa-brands fa-github"></i>Code</a>
+                                <a href=""></a>
+                            </footer>
+                        </div>
+                    </article>
+                    <!-- cinquieme projet -->
+                    <article class="meteo">
+                        <header class="hme">
+                            <img src="/image/Meteo.jpg" alt="" width="200">
+                        </header>
+                        <div class="bme">
+                            <h3>Application Météo</h3>
+                            <p>Une application utilisant une API en temps
+                                réel pour afficher la météo mondiale.</p>
+                            <div class="tags">
+                                <span>JavaScript</span>
+                                <span>API</span>
+                            </div>
+                            <footer class="fgs">
+                                <a href=""><i class="fa-brands fa-github"></i>Code</a>
+                                <a href=""></a>
+                            </footer>
+                        </div>
+                    </article>
+                    <!-- sixieme projet -->
+                    <article class="design">
+                        <header class="hde">
+                            <img src="/image/Design.jpg" alt="" width="200">
+                        </header>
+                        <div class="bde">
+                            <h3>Maquette Mobile UI</h3>
+                            <p>onception d'une interface utilisateur
+                                noderne pour une application de fitness.</p>
+                            <div class="tags">
+                                <span>Figma</span>
+                                <span>Design</span>
+                            </div>
+                            <footer class="fgs">
+                                <a href=""><i class="fa-brands fa-github"></i>Code</a>
+                                <a href=""></a>
+                            </footer>
+                        </div>
+                    </article>
+
+
+                </div>
+
+        </section>
+
+
+    </main>
+    <footer class="accueil">
+        <p>©2026 Josué. Tous drolts réservés.</p>
+        <a href="https://www.linkedin.com/in/kasanji-tshimanga-josu%C3%A9-6726503b7/"><i
+                class="fa-brands fa-linkedin"></i></a>
+
+
         <a href="http:github.com/24kt119si-lab"><i class="fa-brands fa-github"></i></a>
+
         <a href="https://x.com/KasanjiJ65432"><i class="fa-brands fa-x-twitter"></i></a>
     </footer>
 </body>
+
 </html>
