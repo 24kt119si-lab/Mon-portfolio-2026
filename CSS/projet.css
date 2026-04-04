@@ -24,7 +24,7 @@ h2 {
 
 } 
 
-.commerce {
+article {
     width: 100%;
     height: 100%;
     border: 2px solid;
@@ -42,66 +42,6 @@ p {
     margin-bottom: 2rem;
     color: var(--gris-fonce);
     font-size: 0.8rem;
-}
-
-.gestionnaire{
-    width: 100%;
-    height: auto;
-    border: 1px solid;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-color: white;
-    font-family: sans-serif;
-    border-top: 0;
-    overflow: hidden;
-}
-
-.blog {
-    width: 100%;
-    height: auto;
-    border: 1px solid;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-color: white;
-    font-family: sans-serif;
-    border-top: 0;
-    overflow: hidden;
-}
-
-.Dashboard {
-    width: 100%;
-    height: auto;
-    border: 1px solid;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-color: white;
-    font-family: sans-serif;
-    border-top: 0;
-    overflow: hidden;
-}
-
-.meteo {
-    width: 100%;
-    height: auto;
-    border: 1px solid;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-color: white;
-    font-family: sans-serif;
-    border-top: 0;
-    overflow: hidden;
-}
-
-.design {
-    width: 100%;
-    height: auto;
-    border: 1px solid;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-color: white;
-    font-family: sans-serif;
-    border-top: 0;
-    overflow: hidden;
 }
 
 .projets {
@@ -156,13 +96,13 @@ a {
     font-size: 0.9rem;
 } 
 
-footer {
+.fgs {
     margin-top: 1.5rem;
     padding: 5%;
     position: relative;
 }
 
-footer::after {
+.fgs::after {
     content: "";
     position: absolute;
     
