@@ -225,3 +225,146 @@ section.competences table tbody tr:hover {
     transform: translateY(-3px);
 }
 
+/* --- Page Contact --- */
+
+/* --- Page Contact --- */
+
+.contact-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 6rem auto;
+    gap: 4rem;
+    padding: 0 2rem;
+    align-items: flex-start;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h2 {
+    text-align: left;
+}
+
+.contact-info h2::after {
+    margin: 1.2rem 0; /* Aligne la barre violette à gauche */
+}
+
+.contact-info p {
+    color: var(--gris-fonce);
+    margin-bottom: 2rem;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* .info-item i {
+    font-size: 1.5rem;
+    color: var(--violet-doux);
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+} */
+
+.info-item h3 {
+    color: var(--gris-tres-fonce);
+    font-size: 1.1rem;
+}
+
+/* Style du Formulaire */
+.contact-form {
+    flex: 1.2;
+    background: white;
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--gris-tres-fonce);
+}
+
+.input-group input, 
+.input-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid var(--gris-clair);
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus, 
+.input-group textarea:focus {
+    outline: none;
+    border-color: var(--violet-doux);
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: var(--violet-doux);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-submit:hover {
+    background-color: var(--violet-fonce);
+    transform: translateY(-2px);
+}
+
+/* Styles pour les boutons WhatsApp et Telegram */
+.btn-whatsapp, .btn-telegram {
+    background-color: #25D366; /* Couleur verte pour WhatsApp */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-right: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-whatsapp:hover {
+    background-color: #128C7E; /* Vert plus foncé au hover */
+    transform: translateY(-2px);
+}
+
+.btn-telegram {
+    background-color: #0088CC; /* Couleur bleue pour Telegram */
+}
+
+.btn-telegram:hover {
+    background-color: #006699; /* Bleu plus foncé au hover */
+    transform: translateY(-2px);
+}
+
+/* Adaptation pour les petits écrans */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        margin: 3rem auto;
+    }
+}
